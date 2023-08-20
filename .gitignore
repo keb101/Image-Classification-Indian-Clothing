@@ -2,6 +2,7 @@
 __pycache__/
 *.py[cod]
 *$py.class
+DATA_IN_GEOPACKAGE_FORMAT/
 
 Springboard__Student Enrollment Agreement_Kelly Butler.pdf
 .DS_Store
