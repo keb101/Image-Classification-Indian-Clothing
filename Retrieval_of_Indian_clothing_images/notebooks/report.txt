@@ -1,0 +1,28 @@
+TensorFlow 2.0 Upgrade Script
+-----------------------------
+Converted 1 files
+Detected 0 issues that require attention
+--------------------------------------------------------------------------------
+================================================================================
+Detailed log follows:
+
+================================================================================
+--------------------------------------------------------------------------------
+Processing file '/Users/butler/Documents/hp/Retrieval_of_Indian_clothing_images/help_with_tensorflow/02_Convolutional_Neural_Network.ipynb'
+ outputting to '/Users/butler/Documents/hp/Retrieval_of_Indian_clothing_images/help_with_tensorflow/02_Convolutional_Neural_Network_v.ipynb'
+--------------------------------------------------------------------------------
+
+15:0: INFO: Renamed 'tf.disable_v2_behavior' to 'tf.compat.v1.disable_v2_behavior'
+123:23: INFO: Renamed 'tf.truncated_normal' to 'tf.random.truncated_normal'
+152:25: INFO: Renamed keyword argument for tf.nn.conv2d from filter to filters
+165:31: INFO: Renamed keyword argument for tf.nn.max_pool from value to input
+165:16: INFO: Renamed 'tf.nn.max_pool' to 'tf.nn.max_pool2d'
+224:4: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+226:9: INFO: Renamed 'tf.placeholder' to 'tf.compat.v1.placeholder'
+257:16: INFO: Changing labels arg of tf.nn.softmax_cross_entropy_with_logits to tf.stop_gradient(labels). Please check this transformation.
+
+260:12: INFO: Renamed 'tf.train.AdamOptimizer' to 'tf.compat.v1.train.AdamOptimizer'
+263:10: INFO: Renamed 'tf.Session' to 'tf.compat.v1.Session'
+264:12: INFO: Renamed 'tf.global_variables_initializer' to 'tf.compat.v1.global_variables_initializer'
+--------------------------------------------------------------------------------
+
