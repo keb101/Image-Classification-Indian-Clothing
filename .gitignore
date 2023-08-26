@@ -3,7 +3,7 @@ __pycache__/
 *.py[cod]
 *$py.class
 DATA_IN_GEOPACKAGE_FORMAT/
-
+data/
 Springboard__Student Enrollment Agreement_Kelly Butler.pdf
 .DS_Store
 # C extensions
@@ -163,3 +163,5 @@ cython_debug/
 #.idea/
 .DS_Store
 .DS_Store
+7.2.5_API_Mini_Poject/api_data_wrangling_mini_project.ipynb
+*.zip
