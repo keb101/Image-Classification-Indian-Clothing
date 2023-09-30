@@ -2,8 +2,8 @@
 __pycache__/
 *.py[cod]
 *$py.class
-DATA_IN_GEOPACKAGE_FORMAT/
-data/
+
+
 Springboard__Student Enrollment Agreement_Kelly Butler.pdf
 .DS_Store
 # C extensions
@@ -27,6 +27,7 @@ share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+.DSStore
 MANIFEST
 
 # PyInstaller
