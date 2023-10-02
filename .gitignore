@@ -162,16 +162,8 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
-.DS_Store
-.DS_Store
-7.2.5_API_Mini_Poject/api_data_wrangling_mini_project.ipynb
+data/external/newly_scraped_images/
 *.zip
-relax_challenge/relax_data_science_challenge.pdf
-relax_challenge/takehome_user_engagement.csv
-relax_challenge/takehome_users.csv
-relax_challenge/takehome_users.xlsx
-.DS_Store
-.DS_Store
-.DS_Store
-.DS_Store
+data/processed/new_test_images/
+data/raw/images/
 .DS_Store
