@@ -1,6 +1,6 @@
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true) Classification of Tradition Indian Clothing Images
+ Classification of Tradition Indian Clothing Images
 ==============================
-
+![Saree](saree.jpeg)
 
 
 Project Organization
