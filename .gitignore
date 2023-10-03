@@ -3,11 +3,14 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+full_models/
+model_weights/
 test_w_labels/
 paper_from_from_github/
 .DS_Store
 # C extensions
 *.so
+
 
 # Distribution / packaging
 .Python
