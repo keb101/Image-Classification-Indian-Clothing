@@ -1,3 +1,5 @@
  Classification of Tradition Indian Clothing Images
 ==============================
-![Clothes](images_for_readme/images.jpg)
+<p align="center">
+  <img src="images_for_readme/images.jpg">
+</p>
