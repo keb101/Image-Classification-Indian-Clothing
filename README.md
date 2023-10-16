@@ -10,21 +10,7 @@ A new e-commerce site in the U.S. wants highly accurate model to classify images
 ## 2. Data
 The model was trained on data from the Indo Fashion dataset on [Kaggle](https://www.kaggle.com/datasets/validmodel/indo-fashion-dataset). This dataset has 15 different labels: 
 
-Women’s Kurtas. Sarees, Blouses, Leggings and Salwars, Men’s Kurtas, Dupattas, Nehru jackets, Lehenga
-
--Gowns
-
--Petticoats
-
--Dhoti Pants
-
--Palazzos
-
--Women’s Mojaris
-
--Sherwanis
-
--Men’s Mojaris
+Women’s Kurtas. Sarees, Blouses, Leggings and Salwars, Men’s Kurtas, Dupattas, Nehru jackets, Lehenga, Gowns, Petticoats, Dhoti Pants, Palazzos, Women’s Mojaris, Sherwanis, Men’s Mojaris
 
 New test images were scraped using Beautiful Soup from the following sites:
 
