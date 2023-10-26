@@ -20,6 +20,15 @@ New test images were scraped using Beautiful Soup from the following sites:
 
 ## 3. Exploratory Data Analysis
 Plots of the sizes of images in the training set and each test set are shown below. The images varied greatly in size; however, the new test set's average image size is larger than the training set or the original test set. One image is not plotted in the new test set because it is very large.
+<p align="center">
+  <img src="images_for_readme/sizes.png" width="600">
+</p>
+
+Biggest image in the new test set:
+<p align="center">
+  <img src="images_for_readme/largest_image.jpg" width="300">
+</p>
+
 
 ## 4. Pre-processing
 ## 5. Modeling
