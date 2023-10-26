@@ -29,7 +29,12 @@ Biggest image in the new test set:
   <img src="images_for_readme/largest_image.jpg" width="300">
 </p>
 
+## 4. Modeling
+Three convolutional neural network architectures were used: ResNet50, ResNet152-v2, and the following:
+<p align="center">
+  <img src="images_for_readme/model.png" width="400">
+</p>
+The ResNet50 and the new model outperformed the ResNet152-v2.
 
-## 4. Pre-processing
-## 5. Modeling
-## 6. Business Insights
+
+## 5. Business Insights
