@@ -30,11 +30,47 @@ Biggest image in the new test set:
 </p>
 
 ## 4. Modeling
-Three convolutional neural network architectures were used: ResNet50, ResNet152-v2, and the following:
+Three convolutional neural network architectures were used:
+### ResNet50 
+- Without top layer 
+- With fully connected layer of 100 nodes and relu activation
+- 20% Dropout
+- Output layer with softmax activation
+
+### ResNet152-v2
+- Without top layer 
+- With fully connected layer of 512 nodes and relu activation
+- 40% Dropout
+- Output layer with softmax activation
+
+### Model 1:
 <p align="center">
   <img src="images_for_readme/model.png" width="400">
 </p>
-The ResNet50 and the new model outperformed the ResNet152-v2.
+
+- Batch normalization after each convolutional layer
+- Softmax activation for output layer and relu activation for the other layers
+
+
+## 5. Metrics
+
+| Original Test Set   | Accuracy | Precision | Recall | F1-score|
+|------|-------|-------|-----|----|
+| Model 1 | 86.23 % | 85.98 % | 84.68 % | 84.61 % |
+| ResNet50 | 85.05 % | 85.91 % | 85.05 % | 85.10 % | 
+| ResNet152-v2 | 79.68 % | 81.12 % | 79.68 % | 79.86 % | 
+
+| New Test Set   | Accuracy |
+|------|-------|
+| Model 1 | 63.91 % | 
+| ResNet50 | 63.22 % |  
+| ResNet152-v2 |  | 
+
+
+The ResNet50 and Model 1 both outperformed the ResNet152-v2. Since accuracy is the essential metric for this project, I used the confusion matrix for Model 1.
+
+
+
 
 
 ## 5. Business Insights
