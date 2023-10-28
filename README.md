@@ -58,19 +58,28 @@ Three convolutional neural network architectures were used:
 |------|-------|-------|-----|----|
 | Model 1 | 86.23 % | 85.98 % | 84.68 % | 84.61 % |
 | ResNet50 | 85.05 % | 85.91 % | 85.05 % | 85.10 % | 
-| ResNet152-v2 | 79.68 % | 81.12 % | 79.68 % | 79.86 % | 
+| ResNet152-v2 | 80.92 % | 82.34 % | 80.93 % | 80.83 % | 
 
 | New Test Set   | Accuracy |
 |------|-------|
 | Model 1 | 63.91 % | 
 | ResNet50 | 63.22 % |  
-| ResNet152-v2 |  | 
+| ResNet152-v2 | 61.82 % | 
+
+The ResNet50 and Model 1 both outperformed the ResNet152-v2. Since accuracy is the essential metric for this project, I used the confusion matrices for Model 1.
+
+### Confusion Matrices for Model 1
+<p align="center">
+  <img src="reports/figures/cm_with_axis_labels.png" width="400">
+  <img src="reports/figures/cm_new_test_data.png" width="400">
+</p>
 
 
-The ResNet50 and Model 1 both outperformed the ResNet152-v2. Since accuracy is the essential metric for this project, I used the confusion matrix for Model 1.
 
 
-
-
-
-## 5. Business Insights
+## 6. Business Insights
+- Since the accuracy with newly acquired data was 63.91% significantly lower than the 86.23% for the original test set, a new model needs to be trained on current images from other e-commerce sites.
+ 
+- It is imperative that the data used in training a new model be correctly categorized. The product title may be a better way of determining the category than the label used in searching for the image.
+ 
+- Many clothes are shown in conjunction with one another. A multi-class multi-label model may be a better approach.
