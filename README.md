@@ -74,6 +74,10 @@ The ResNet50 and Model 1 both outperformed the ResNet152-v2. Since accuracy is t
   <img src="reports/figures/cm_new_test_data.png" width="400">
 </p>
 
+Training and test images that look similar but are labeled differently:
+<p align="center">
+  <img src="images_for_readme/kurtas.jpg" width="400">
+</p>
 
 
 
