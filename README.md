@@ -74,12 +74,21 @@ The ResNet50 and Model 1 both outperformed the ResNet152-v2. Since accuracy is t
   <img src="reports/figures/cm_new_test_data.png" width="400">
 </p>
 
-Training and test images that look similar but are labeled differently:
+**Training and test images that look similar but are labeled differently**
 <p align="center">
-  <img src="images_for_readme/kurtas.jpg" width="400">
+  <img src="images_for_readme/kurta.jpg" width="400">
+</p>
+Both women are wearing kurtas and dupattas
+
+
+<p align="center">
+  <img src="images_for_readme/kurta-gown.jpg" width="400">
 </p>
 
-
+**Mis-labeled Training Images**
+<p align="center">
+  <img src="images_for_readme/mojaris.jpg" width="400">
+</p>
 
 ## 6. Business Insights
 - Since the accuracy with newly acquired data was 63.91% significantly lower than the 86.23% for the original test set, a new model needs to be trained on current images from other e-commerce sites.
