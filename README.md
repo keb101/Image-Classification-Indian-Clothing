@@ -78,7 +78,8 @@ The ResNet50 and Model 1 both outperformed the ResNet152-v2. Since accuracy is t
 <p align="center">
   <img src="images_for_readme/kurta.jpg" width="400">
 </p>
-Both women are wearing kurtas and dupattas
+
+The women above are wearing both kurtas and dupattas.
 
 
 <p align="center">
@@ -87,7 +88,7 @@ Both women are wearing kurtas and dupattas
 
 **Mis-labeled Training Images**
 <p align="center">
-  <img src="images_for_readme/mojaris.jpg" width="400">
+  <img src="images_for_readme/mojari.jpg" width="400">
 </p>
 
 ## 6. Business Insights
