@@ -4,6 +4,8 @@
   <img src="images_for_readme/for_readme.jpg">
 </p>
 
+### This project was done as part of Springboard's Data Science Boot Camp. The business problem is hypothetical as I was not working as a data scientist when I did this.
+
 ## 1. Business Problem
 A new e-commerce site in the U.S. wants highly accurate model to classify images of traditional Indian clothing since many of these clothes are quite similar.
 
